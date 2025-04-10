@@ -9,25 +9,38 @@
 </head>
 
 <body>
-    <nav class="nav">
-        
+    <nav id="navbar">
+
         <a href="/home"><img src="public/myogo.jpg" alt="" class="logo"></a>
 
         <!-- <svg class="icon icon--white">
             <use xlink:href="images/sprite.svg#menu"></use>
         </svg> -->
 
-        <ul class="list nav_list">
-            <li class="nav_item"><a href="#">hosting</a></li>
-            <li class="nav_item"><a href="#">vps</a></li>
+        <ol class="list nav_list">
+            <li class="nav_item"><a href="#">home</a></li>
+            <li class="nav_item"><a href="#">about</a></li>
             <li class="nav_item"><a href="#">domain</a></li>
-            <li class="nav_item"><a href="#">pricings</a></li>
-        </ul>
+            <li class="nav_item"><a href="#">contact</a></li>
+        </ol>
+        <button type="button" class="button">Contact me</button>
 
     </nav>
-    <script src="js/main.js"></script>
 
+    <div class="about-section">
+        <div>
+            <img src="/portfolio/public/Web Designs.png" alt="" style="width: 500px; height: 500px; border-radius: 50px;">
+        </div>
+        <div id="about-section-text">
+            <p>About me</p>
+            <h1>A Fullstack software developer</h1>
+            <p style="width: 60%;">This is a story of a young man who wanted to be rich. NOw, what ddo you think? did the man make it </p>
+            <button type="button" class="button">View more about me</button>
+        </div>
+    </div>
 
+    <script src="js/main.js">
+    </script>
 </body>
 
 </html>
